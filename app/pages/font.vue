@@ -1,6 +1,8 @@
 <template>
   <div>
     <FloatingWidget />
+     <LogoWrapper image="/images/document.svg"  />
+     <LogoWrapper border-radius="true" image="/images/github.svg" />
     <p class="heavy">Readme</p>
     <p class="bold">Bold</p>
     <p class="semiBold">SemiBold</p>
@@ -10,6 +12,7 @@
 
 <script setup>
 import FloatingWidget from "~/assets/components/FloatingWidget.vue";
+import LogoWrapper from "~/assets/components/LogoWrapper.vue";
 </script>
 
 <style scoped>
